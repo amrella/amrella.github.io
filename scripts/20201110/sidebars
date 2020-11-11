@@ -1,0 +1,55 @@
+<style>
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+<script>
+function gamingMode() {
+  var element = document.body;
+  element.classList.toggle("gaming");
+}
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+</script>
+<center><button class="ui button" onclick="gamingMode()">Gaming Mode ON/OFF</button></center><br />
+<center><button class="ui button" onclick="darkMode()">Abyss Mode ON/OFF</button></center>
+
+
+
+
+
+
+
+<!-- <style>
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  text-color: white;
+  text-shadow: 0 0 3px #00FA9A;
+  background-color: #55efc4;
+  background-image: linear-gradient(180deg, #55efc4 0%, #000000 14%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<button onclick="darkMode()">Dark Mode ON/OFF</button>
+<script>
+function darkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script> -->
